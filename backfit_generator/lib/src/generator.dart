@@ -114,6 +114,12 @@ Code _parseBody(MethodElement element) {
     method = 'get';
   } else if (methodType == Post) {
     method = 'post';
+  } else if (methodType == Delete) {
+    method = 'delete';
+  } else if (methodType == Head) {
+    method = 'head';
+  } else if (methodType == Put) {
+    method = 'put';
   }
 
   url = path.url.join(
