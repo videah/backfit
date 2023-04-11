@@ -399,7 +399,7 @@ return ${_typeArgs.elementAt(1).name}(
 Iterable<Parameter> _parseRequiredParameters(
         List<ParameterElement> parameters) =>
     parameters
-        .where((parameter) => parameter.isRequired)
+        .where((parameter) => parameter.isNotOptional)
         .map(_parseParameter);
 
 Iterable<Parameter> _parseOptionalParameters(
