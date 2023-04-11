@@ -7,8 +7,8 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  analyzer: 
-  backfit:
+  analyzer: ^5.10.0
+  backfit: ^0.0.2+8
   build: ^2.1.0
   code_builder: ^4.1.0
   cross_file: ^0.3.3+1
